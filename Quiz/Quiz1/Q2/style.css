@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    
+    background-color: rgb(160, 201, 66);
+    background-image: linear-gradient(315deg, grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.quiz-container{
+    background-color: #fff;
+    width: 400px;
+
+}
+.quiz-header{
+    padding: 2rem;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+ul li{
+    font-weight: bold;
+}
+button{
+    background-color: hotpink;
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 1rem;
+
+}
+button:hover{
+    background-color:rgb(131, 20, 131);
+}
